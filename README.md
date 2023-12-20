@@ -18,7 +18,7 @@ cd weatherApi
 pip install -r requirements.txt
 ```
 
-Импорт координатор городов (если потребуется, однако дефолтные данные уже в `cities_lat_lon.csv`):
+Импорт координат городов (если потребуется, однако дефолтные данные уже в `cities_lat_lon.csv`):
 ```sh
 cd weatherApi/weatherProject
 python3 manage.py load_lat_lon
